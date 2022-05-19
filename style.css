@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(25deg, #af67e9, #6565e7);
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(238, 29%, 16%);
+}
+
+a:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+hr {
+  border-color: hsl(240, 8%, 93%);
+  border-style: dotted;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  height: 70vh;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 5%;
+}
+
+.image {
+  background-image: url("./images/bg-pattern-desktop.svg");
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.image > img {
+  height: 45vh;
+  margin-top: 5em;
+  margin-left: -4em;
+}
+
+.box {
+  position: absolute;
+  top: 11.7em;
+  left: -5em;
+  height: 210px;
+}
+
+.box--active {
+  position: absolute;
+  top: 11.7em;
+  left: -5em;
+  height: 210px;
+  transform: translateX(-2em);
+}
+
+.box > img {
+  height: 10em;
+}
+
+.faq {
+  width: 30vw;
+  margin: auto;
+}
+
+.faq-item {
+  padding: 1em 1em 1em 0em;
+}
+
+.question-item {
+  text-decoration: none;
+  color: hsl(237, 12%, 33%);
+}
+
+.question-item:after {
+  content: url("./images/icon-arrow-down.svg");
+  float: right;
+}
+
+.question-item-active {
+  font-weight: bold;
+}
+
+.question-item-active:after {
+  content: url("./images/icon-arrow-down.svg");
+  float: right;
+  transform: rotate(0.5turn);
+  transition: 0.3s;
+}
+
+.answer-item {
+  display: none;
+  font-size: 12px;
+  color: hsl(240, 6%, 50%);
+}
+
+.answer-item-display {
+  display: block;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    overflow: visible;
+    padding-bottom: 10vh;
+    width: 90vw;
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  .box > img,
+  .box--active > img {
+    height: 5em;
+    position: relative;
+    top: -26vh;
+    right: -35vw;
+  }
+
+  .image {
+    background-image: url("./images/bg-pattern-mobile.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: visible;
+    margin-top: -10em;
+  }
+
+  .image > img {
+    height: 25vh;
+    position: relative;
+    top: -3vh;
+    right: -33vw;
+  }
+
+  .faq {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    overflow: scroll;
+  }
+}
+
+.attribution {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 90vh;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(238, 29%, 16%);
+}
