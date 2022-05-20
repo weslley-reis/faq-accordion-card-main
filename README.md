@@ -1,7 +1,5 @@
 <h1 align="center"> Frontend Mentor - FAQ accordion card solution</h1>
 
-<p align="center">This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.</p>
-
 <p align="center"> Esta é uma solução para o desafio [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam).
 
 ## Tabela de conteudos
@@ -26,11 +24,11 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![](<div style="width:100%;height:0;padding-bottom:49%;position:relative;"><iframe src="https://giphy.com/embed/1ajnWl3z6zBR3nsocU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/1ajnWl3z6zBR3nsocU">via GIPHY</a></p>)
+![](./faq-desktop.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://weslley-reis.github.io/faq-accordion-card-main/)
 
 ## Meu Processo
 
